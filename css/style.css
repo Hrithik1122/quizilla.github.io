@@ -304,7 +304,7 @@ html, body {
     display: inline-block;
     margin: 0 0.5rem;
     -webkit-animation: blink 5s infinite;
-    animation: blink 5s infinite;
+    animation: blink 1.5s infinite;
     transition: all 0.15s;
   }
   
