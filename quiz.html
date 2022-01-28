@@ -266,7 +266,7 @@ style="display: block; margin: 0 auto; background-color: #224465; color: white; 
 <script>
   jQuery('#quiz-form').on('submit',function(e) {
     e.preventDefault();
-    jQuery('#msg2').html('Please Wait! Your Test is Submitting');
+    jQuery('#msg2').html('Please Wait! Your Test is Submitting...');
     jQuery('#quizSubmit').attr('dissable',true);
     jQuery.ajax({
       url: 'https://script.google.com/macros/s/AKfycby6bFxp7ISNDjbaGb09dBrjEKPyWcSd6BudBdHYtDOnZ_RT_C8eakkmJeRA-_y8sbxG/exec',
